@@ -1,8 +1,14 @@
+--Utilizar el siguiente comando sólo en caso de haber obtenido
+--algún error en la ejecución de la consulta completa
+--(solo utilizar una vez).
+
+--DROP DATABASE webstore;
 CREATE DATABASE webstore
 --La línea de abajo estaba en el archivo original de consulta,
 --sin embargo no se ha tomado en cuenta porque personalmente
 --me ha dado error al momento de ejecutar la consulta.
-create schema dbo
+--create schema dbo
+USE webstore
 go
 
 create table Bitacora
