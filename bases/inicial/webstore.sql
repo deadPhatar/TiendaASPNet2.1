@@ -1,16 +1,20 @@
---Utilizar el siguiente comando sólo en caso de haber obtenido
---algún error en la ejecución de la consulta completa
---(solo utilizar una vez).
-
---DROP DATABASE webstore;
-CREATE DATABASE webstore
+--Ejecutar primero la siguiente línea.
+CREATE DATABASE webstore;
 --La línea de abajo estaba en el archivo original de consulta,
 --sin embargo no se ha tomado en cuenta porque personalmente
 --me ha dado error al momento de ejecutar la consulta.
 --create schema dbo
-USE webstore
-go
 
+--Después, ejecutar la siguiente línea y, a continuación,
+--todas las de abajo.
+USE webstore;
+
+--Ejecutar el solo siguiente comando en caso de haber obtenido
+--algún error en la ejecución de alguna consulta
+--(solo utilizar una vez).
+--DROP DATABASE webstore;
+
+--Ejecutar después todos los siguientes comandos a la vez
 create table Bitacora
 (
 	BitacoraId int identity
