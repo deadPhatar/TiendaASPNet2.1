@@ -1,7 +1,6 @@
 --Checa bien la presentación de las vistas que nos
 --mandaron recientemente para que te des una idea
 --de cómo empezar a hacer las vistas
-
 CREATE DATABASE psilo;
 USE psilo;
 
